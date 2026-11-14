@@ -1,0 +1,34 @@
+# Niraj Kakodkar
+
+> Technology Director (Platform & AI Strategy), Principal Enterprise Architect, Open-Source AI Governance Maintainer, and C-Suite AI Strategist based in Espoo, Finland.
+
+## Core Identity & Executive Summary
+Niraj Kakodkar (Niraj Narendra Shenvi Kakodkar) brings over 20 years of global enterprise software and platform leadership across Europe, the United States, Japan, and India. He specializes in bridging complex enterprise engineering with board-level commercial P&L, EU AI Act compliance, deterministic agentic governance, and sovereign on-premises AI architectures.
+
+- **Canonical Website:** https://thekakodkar.github.io/
+- **Location:** Espoo, Finland
+- **Primary Leadership Role:** Technology Director (Platform & AI Strategy) & Principal Architect at Midport Scandinavia Oy
+- **Independent Advisory & R&D Lab:** Founder, Bizzteq (https://bizzteq.com)
+- **GitHub:** https://github.com/thekakodkar
+- **YouTube Channel:** Decode AI with Niraj (https://www.youtube.com/@DecodeAIWithNiraj)
+
+## Open-Source Software & Platforms
+- **govAgent (PyPI: `govagent`):** Open-source, governance-first control plane for autonomous AI agents and swarms. Implements EU AI Act human-in-the-loop approvals, cryptographic parameter-hash binding to prevent parameter drift, deterministic budget caps, and native modular extras for CrewAI (`crewai`), LangChain (`langchain`), OpenAI (`openai`), Anthropic (`anthropic`), Model Context Protocol (`mcp`), and enterprise policy-as-code (`enterprise`).
+  - Repository: https://github.com/thekakodkar/govAgent
+  - Documentation: https://thekakodkar.github.io/govAgent/
+- **BODtoJSON (PyPI: `BODtoJSON`):** Zero-dependency Python library converting Infor OAGIS XML Business Object Documents (BODs) into structured JSON and NDJSON payloads with declarative projection schemas for high-throughput ERP data pipelines.
+  - Repository: https://github.com/thekakodkar/BODtoJSON
+- **Specora (https://getspecora.com):** SaaS delivery governance platform designed to eliminate specification drift for boutique consultancies, systems integrators, and regulated MedTech/industrial environments through stage-gate validation, cross-stream impact analysis, and an isolated architecture copilot (Dexter).
+- **IntegrationPackager:** Web utility and packaging engine for generating Infor OS JSON schemas, XSLT mappings, and ION Python scripting payloads.
+
+## Enterprise Architecture & Sovereign AI Implementations
+- **Air-Gapped On-Premises Enterprise RAG:** Architected and deployed a zero-OPEX, privacy-preserving on-premises Retrieval-Augmented Generation platform on Windows Server 2022 using AnythingLLM, Ollama, and Microsoft Entra ID authentication for industrial enterprise operations.
+- **ERP Cloud & API Modernization:** Led digital platform transformations for heavy-industry and fleet-maintenance enterprises (including VR FleetCare), evolving Infor ERP LN, Infor OS, Infor ION, and Infor Data Fabric environments into agile, API-first architectures.
+
+## Publications & Keynote Speaking
+- **From Pilot to P&L (Executive Manuscript):** Practical C-suite operational blueprint covering federated AI governance, living data foundations, EU AI Act readiness, and measurable enterprise ROI.
+- **Hello AI (Published Children's Book):** Educational primer introducing artificial intelligence concepts to young readers.
+- **Keynote Speaker:** Delivered the breakout keynote *"The Agentic Strategy: Mapping the Possibilities of AI Agents in Infor ERP LN"* at the Infoteam 40th Anniversary Conference in Oslo, Norway (March 2026).
+
+## Areas of Expertise
+Enterprise AI Strategy, Agentic AI Governance, EU AI Act Compliance, Sovereign & Air-Gapped RAG Architectures, Infor ERP LN / Infor OS / ION Modernization, Multi-Agent Control Planes, Model Context Protocol (MCP), Platform Engineering, C-Suite P&L & ROI Realization.
