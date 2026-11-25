@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Niraj Kakodkar | Technology Director, Principal Enterprise Architect &amp; AI Strategist</title>
-  <meta name="description" content="Executive portfolio of Niraj Kakodkar: Technology Director (Platform & AI Strategy) at Midport Scandinavia Oy, Founder of Bizzteq (TMI), creator of govAgent and BODtoJSON, and author of Operating the AI Enterprise and Hello, AI!" />
+  <meta name="description" content="Executive portfolio of Niraj Kakodkar: Technology Director (Platform & AI Strategy) at Midport Scandinavia Oy, Founder of Bizzteq (TMI), creator of govAgent, BODtoJSON, and docstruct-ai, and author of Operating the AI Enterprise and Hello, AI!" />
   <meta name="author" content="Niraj Kakodkar" />
   <link rel="canonical" href="https://thekakodkar.github.io/" />
 
@@ -62,6 +62,8 @@
           "https://thekakodkar.github.io/govAgent/",
           "https://pypi.org/project/govagent/",
           "https://pypi.org/project/BODtoJSON/",
+          "https://pypi.org/project/docstruct-ai/",
+          "https://thekakodkar.github.io/docstruct-ai/",
           "https://www.youtube.com/@DecodeAIWithNiraj",
           "https://bizzteq.com",
           "https://getspecora.com"
@@ -74,7 +76,8 @@
           "EU AI Act Compliance",
           "Infor ERP LN",
           "Infor OS & ION Integration",
-          "Multi-Agent Orchestration"
+          "Multi-Agent Orchestration",
+          "Document AI & Structured Extraction"
         ]
       },
       {
@@ -94,6 +97,16 @@
         "description": "Zero-dependency Python library transforming Infor OAGIS XML Business Object Documents into structured JSON and NDJSON with declarative schema projection.",
         "codeRepository": "https://github.com/thekakodkar/BODtoJSON",
         "url": "https://pypi.org/project/BODtoJSON/",
+        "programmingLanguage": "Python",
+        "author": { "@id": "https://thekakodkar.github.io/#niraj-kakodkar" }
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://github.com/thekakodkar/docstruct-ai#software",
+        "name": "docstruct-ai",
+        "description": "Model-agnostic OCR and structured extraction library that turns PDFs, scanned pages, and images into validated JSON, streaming NDJSON, or compliant XML with Pydantic/XSD schema enforcement, local-first VLM routing (Ollama, vLLM), and full provenance telemetry.",
+        "codeRepository": "https://github.com/thekakodkar/docstruct-ai",
+        "url": "https://thekakodkar.github.io/docstruct-ai/",
         "programmingLanguage": "Python",
         "author": { "@id": "https://thekakodkar.github.io/#niraj-kakodkar" }
       },
@@ -393,7 +406,7 @@
               </a>
               <span class="text-slate-300">|</span>
               <a href="https://pypi.org/project/govagent/" target="_blank" rel="noopener noreferrer" class="hover:text-cobalt transition">
-                PyPI (govagent · BODtoJSON) ↗
+                PyPI (govagent · BODtoJSON · docstruct-ai) ↗
               </a>
               <span class="text-slate-300">|</span>
               <a href="https://www.youtube.com/@DecodeAIWithNiraj" target="_blank" rel="noopener noreferrer" class="hover:text-cobalt transition">
@@ -673,7 +686,7 @@
           <!-- Category Filter Controls -->
           <div class="flex flex-wrap gap-2" role="tablist" aria-label="Filter Artifacts">
             <button type="button" onclick="filterArtifacts('all')" id="filter-all" class="filter-btn px-3 py-1.5 rounded-lg bg-obsidian text-white text-xs font-mono font-semibold transition cursor-pointer">
-              All (5)
+              All (6)
             </button>
             <button type="button" onclick="filterArtifacts('opensource')" id="filter-opensource" class="filter-btn px-3 py-1.5 rounded-lg bg-white text-slate-700 border border-slate-200 hover:border-slate-400 text-xs font-mono font-semibold transition cursor-pointer">
               Open-Source
@@ -692,22 +705,14 @@
           <!-- 1. govAgent -->
           <article data-category="opensource sovereign" class="artifact-card min-w-0 rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-2xs flex flex-col justify-between">
             <div>
-              <!-- Official Black Shield-A Emblem Banner -->
-              <div class="h-40 bg-gradient-to-br from-slate-950 via-slate-900 to-midnight p-5 flex items-center justify-between gap-3 border-b border-slate-200">
-                <div class="flex items-center gap-3.5 min-w-0">
-                  <svg class="w-12 h-14 shrink-0" viewBox="0 0 100 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="govAgent Shield-A Logo">
-                    <path d="M4 4H96V62C96 89 50 112 50 112C50 112 4 89 4 62V4Z" fill="#090D16" stroke="#FFFFFF" stroke-width="4" />
-                    <path d="M43 22H57L76 86H63L59 71H41L37 86H24L43 22ZM44 59H56L50 37L44 59Z" fill="#FFFFFF" />
-                    <rect x="6" y="62" width="88" height="4" fill="#090D16" />
-                  </svg>
-                  <div class="min-w-0">
-                    <div class="text-white font-extrabold text-xl sm:text-2xl tracking-tight">govagent</div>
-                    <div class="text-[10px] font-mono uppercase tracking-widest text-slate-300 mt-0.5 truncate">
-                      Agentic Governance Framework
-                    </div>
-                  </div>
-                </div>
-                <span class="px-2 py-1 rounded bg-blue-500/20 border border-blue-400/30 text-[10px] font-mono text-blue-300 shrink-0">
+              <!-- Official govAgent Logo Banner -->
+              <div class="h-40 bg-white p-5 flex items-center justify-between gap-3 border-b border-slate-200">
+                <img
+                  src="govlogo.png"
+                  alt="govAgent — Agentic Governance Framework"
+                  class="h-20 sm:h-24 w-auto max-w-[85%] object-contain object-left"
+                />
+                <span class="px-2 py-1 rounded bg-slate-100 border border-slate-200 text-[10px] font-mono text-slate-600 shrink-0">
                   SHA-256
                 </span>
               </div>
@@ -813,7 +818,68 @@
             </div>
           </article>
 
-          <!-- 3. Specora -->
+          <!-- 3. docstruct-ai -->
+          <article data-category="opensource sovereign" class="artifact-card min-w-0 rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-2xs flex flex-col justify-between">
+            <div>
+              <!-- Custom SVG Document → Structured Data Pipeline Graphic -->
+              <div class="h-40 bg-gradient-to-br from-slate-950 via-slate-900 to-violet-950 p-5 flex items-center justify-center border-b border-slate-200">
+                <svg class="w-full max-w-xs h-auto max-h-24" viewBox="0 0 360 110" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="docstruct-ai Document Extraction Pipeline">
+                  <rect x="8" y="20" width="88" height="70" rx="10" fill="#0F172A" stroke="#A78BFA" stroke-width="1.5" />
+                  <text x="52" y="48" text-anchor="middle" fill="#C4B5FD" font-family="monospace" font-size="9">PDF / IMAGE</text>
+                  <text x="52" y="66" text-anchor="middle" fill="#F8FAFC" font-family="monospace" font-size="11" font-weight="bold">SCAN / DOCX</text>
+
+                  <path d="M100 55H128" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" />
+                  <path d="M123 50L129 55L123 60" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+                  <rect x="132" y="26" width="96" height="58" rx="10" fill="#5B21B6" fill-opacity="0.35" stroke="#A78BFA" stroke-width="1.5" />
+                  <text x="180" y="50" text-anchor="middle" fill="#DDD6FE" font-family="monospace" font-size="9">SCHEMA-FIRST</text>
+                  <text x="180" y="66" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="10" font-weight="bold">VLM ROUTER</text>
+
+                  <path d="M232 55H260" stroke="#34D399" stroke-width="2" stroke-linecap="round" />
+                  <path d="M255 50L261 55L255 60" stroke="#34D399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+                  <rect x="264" y="20" width="88" height="70" rx="10" fill="#0F172A" stroke="#34D399" stroke-width="1.5" />
+                  <text x="308" y="48" text-anchor="middle" fill="#6EE7B7" font-family="monospace" font-size="9">VALIDATED</text>
+                  <text x="308" y="66" text-anchor="middle" fill="#F8FAFC" font-family="monospace" font-size="11" font-weight="bold">JSON / XML</text>
+                </svg>
+              </div>
+
+              <div class="p-6">
+                <div class="flex items-center justify-between gap-2 text-xs font-mono">
+                  <span class="text-cobalt font-semibold">PyPI: docstruct-ai</span>
+                  <div class="flex items-center gap-3">
+                    <a href="https://thekakodkar.github.io/docstruct-ai/" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-cobalt">Docs ↗</a>
+                    <a href="https://github.com/thekakodkar/docstruct-ai" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-cobalt">GitHub ↗</a>
+                  </div>
+                </div>
+
+                <h3 class="mt-2 text-lg sm:text-xl font-bold text-obsidian">docstruct-ai</h3>
+                <p class="mt-2 text-sm text-slate-600 leading-relaxed">
+                  Model-agnostic OCR and structured extraction library. Turns PDFs, scanned pages, and images into validated JSON, streaming NDJSON, or compliant XML with Pydantic/XSD schema enforcement, local-first VLM routing (Ollama, vLLM), and full provenance telemetry.
+                </p>
+
+                <div class="mt-4 flex flex-wrap gap-1.5 text-xs font-mono">
+                  <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-800 border border-slate-200">Schema-First</span>
+                  <span class="px-2 py-0.5 rounded bg-slate-100 text-slate-800 border border-slate-200">Ollama / vLLM</span>
+                  <span class="px-2 py-0.5 rounded bg-violet-50 text-violet-800 border border-violet-200 font-semibold">JSON · NDJSON · XML</span>
+                  <span class="px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200 font-semibold">Local-First</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="px-6 py-3.5 bg-slate-50 border-t border-slate-200 flex items-center justify-between gap-3">
+              <code class="text-xs font-mono text-slate-800 truncate min-w-0">pip install "docstruct-ai[all]"</code>
+              <button
+                type="button"
+                onclick="copyText('pip install &quot;docstruct-ai[all]&quot;')"
+                class="px-3 py-1 rounded-lg bg-white hover:bg-slate-100 border border-slate-300 text-xs font-mono font-semibold text-obsidian transition shrink-0 cursor-pointer"
+              >
+                Copy
+              </button>
+            </div>
+          </article>
+
+          <!-- 4. Specora -->
           <article data-category="saas" class="artifact-card min-w-0 rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-2xs flex flex-col justify-between">
             <div>
               <!-- Custom SVG Stage-Gate Governance UI Visual -->
@@ -864,7 +930,7 @@
             </div>
           </article>
 
-          <!-- 4. Air-Gapped Sovereign Enterprise RAG -->
+          <!-- 5. Air-Gapped Sovereign Enterprise RAG -->
           <article data-category="sovereign" class="artifact-card min-w-0 rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-2xs flex flex-col justify-between">
             <div>
               <!-- Custom SVG On-Prem Security Topology Diagram -->
@@ -918,7 +984,7 @@
             </div>
           </article>
 
-          <!-- 5. IntegrationPackager (Two-Column Balanced Card) -->
+          <!-- 6. IntegrationPackager (Two-Column Balanced Card) -->
           <article data-category="opensource" class="artifact-card md:col-span-2 min-w-0 rounded-2xl bg-white border border-slate-200 overflow-hidden shadow-2xs">
             <div class="grid grid-cols-1 md:grid-cols-2">
               <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-amber-950/80 p-6 flex items-center justify-center border-b md:border-b-0 md:border-r border-slate-200">
